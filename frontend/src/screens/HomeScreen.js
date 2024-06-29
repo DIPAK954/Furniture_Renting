@@ -43,6 +43,7 @@ function HomeScreen() {
     fetchData();
   }, []);
   return (
+    <>
     <div>
       <Helmet>
         <title>Furniture Renting</title>
@@ -63,7 +64,10 @@ function HomeScreen() {
           </Row>
         )}
       </div>
+      
     </div>
+    
+    </>
   );
 }
 export default HomeScreen;
